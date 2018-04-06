@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+  body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+      font-family: 'Open Sans', sans-serif;
+
+
+}
+
+div.wrapper{
+
+    width: 80%;
+    border: 1px solid white;
+    margin: 2.5em auto;
+}
+
+header{
+
+    text-align: center;
+    background-color: rgb(31 31 31);
+    color: aliceblue;
+    padding: 0.1em;
+}
+footer{
+
+    text-align: center;
+    background-color: rgb(31 31 31);
+    color: aliceblue;
+    padding: 0.1em;
+}
+nav{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    text-align: center;
+    background-color: black;
+
+
+
+}
+nav a{
+    color: aliceblue;
+    padding: 1em;
+    text-decoration: none;
+}
+article{
+
+    margin-left: 5%;
+    color: aliceblue;
+}
+img{
+    width: 100%;
+
+
+}
+.wwdsimg{
+    width: 15%;
+    float:left;
+    margin: 4em 0.5em 0.5em 0;
+}
+.tttimg{
+    width: 15%;
+    float: left;
+    margin: 4em 0.5em 0.5em 0;
+
+}
+h2{
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+}
+h1, h3{
+    font-family: 'Roboto', sans-serif;
+}
